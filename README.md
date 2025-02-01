@@ -1,5 +1,6 @@
 # terraform-module-novembe-2024r
 
+```hcl
 module "novembe-2024r" {
   source  = "RadmilaMu/novembe-2024r/module"
   version = "2.0.0"
@@ -8,3 +9,4 @@ module "novembe-2024r" {
   subnet_cidr = "10.0.1.0/24"
   igw_name = "Kaizen
 }
+```
